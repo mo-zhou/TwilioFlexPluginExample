@@ -77,7 +77,7 @@ export class MyCustomSidebarPage extends React.Component<any, any> {
         text: event.target.elements.message.value,
         to: event.target.elements.emailaddress.value
       },
-      url:'https://inchworm-ibis-7767.twil.io/sendmail',
+      url:'https://{{your-runtime-domain}}/sendmail', //use your Twilio runtime domain
     }).then(res => {
             console.log(res);
             console.log(res.data);
