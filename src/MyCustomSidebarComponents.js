@@ -177,7 +177,7 @@ export class Dialer extends React.Component<any, any> {
       <div>          
         <iframe 
            title="Outbound Dialer Example"
-           src="https://browser-dialer-react.herokuapp.com/index" frameBorder="0" 
+           src="https://browser-dialer-react.herokuapp.com/index" frameBorder="0"  //iframe an existing outbound dialer. Check more here: https://www.twilio.com/docs/voice/tutorials/browser-dialer-node-react 
            align="middle"
            width="500"
            height="650"
